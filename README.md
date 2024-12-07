@@ -7,7 +7,7 @@
 
 
 #### Simulation Files:
-> Monte-Carlo (*Encoding/Decoding*) Code [Simulation](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/main/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
+> Monte-Carlo (*Encoding/Decoding*) [Code Simulation](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/main/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
 
 > Inner Trellis Code Stage Design: *Files are in prep.*
 
