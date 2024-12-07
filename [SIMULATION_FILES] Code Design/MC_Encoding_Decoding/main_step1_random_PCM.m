@@ -1,4 +1,4 @@
-%% You need to have CVX installed + licenced MOSEK Optimization Tools version 10
+%% You need to have CVX installed + licensed MOSEK Optimization Tools version 10
 % If the reverse counter does not appear in the command window after 5-10 secs
 % press Ctrl+C **only a single time** then wait for another 5-10 secs.
 
