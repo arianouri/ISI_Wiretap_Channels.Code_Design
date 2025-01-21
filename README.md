@@ -2,7 +2,7 @@
 
 #### Design and Analysis of a Concatenated Code for Intersymbol Interference Wiretap Channels
 > + Preprint is available at [arXiv: *2501.07561 [cs.IT]*](https://arxiv.org/abs/2501.07561).
-> + See our [IEEE ISIT 2022](https://ieeexplore.ieee.org/abstract/document/9834578#citations) paper: Matched Information Rate Codes for Binary-Input Intersymbol Interference Wiretap Channels
+> + Presented at [IEEE ISIT 2022](https://ieeexplore.ieee.org/abstract/document/9834578#citations) paper: Matched Information Rate Codes for Binary-Input Intersymbol Interference Wiretap Channels
 
 
 #### Simulation Files:
