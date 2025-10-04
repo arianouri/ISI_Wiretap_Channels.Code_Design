@@ -61,11 +61,11 @@
    * Given degree distributions, this file evaluates the asymptotic error performance at each iteration using modified density evolution (see Section IV.B of [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561)).
 
 2. `\S1--DESIGN-Outer LDPC Code Stage\LDPC_ensemble_optimization\main_LP.m`  
-   * Given initial degree distributions, this file maximizes the design rate by optimizing the variable-node side degree distributions.
+   * Given initial degree distributions, this file maximizes the design rate by optimizing the variable-node degree distributions.
 
-3. 
-	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_random_PCM.m`
-	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_encode_PCM.m`
-	*  This files are similar to `I.1` and `I.2:`
-		`I.1:` `\MC_Encoding_Decoding\main_step1_random_PCM.m`
-		`I.2:` `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`
+3. Random Code Construction:  
+   * `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_random_PCM.m`  
+   * `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_encode_PCM.m`  
+   * These files are analogous to:  
+     - `I.1:` `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
+     - `I.2:` `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`
