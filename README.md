@@ -14,11 +14,11 @@
    * Given degree distributions, this file generates parity-check matrices (PCMs) for the outer LDPC code stage without girth-4.  
    * **Note:** Requires CVX and a licensed version of the MOSEK Optimization Tool (version 10).  
 
-1. `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`  
+2. `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`  
    * Given a PCM, this file produces the corresponding upper-triangular format suitable for reduced-complexity encoding of LDPC codes.  
    * **Reference:** Appendix A of *Modern Coding Theory* by Richardson and Urbanke.  
 
-1. `\MC_Encoding_Decoding\main_step3_MC_enc_dec.m`  
+3. `\MC_Encoding_Decoding\main_step3_MC_enc_dec.m`  
    * Performs a Monte-Carlo simulation of the encoder, the ISI wiretap channel, and the legitimate receiver’s message-passing decoder.  
 
 ---
@@ -55,4 +55,17 @@
 
 ---
 
-### (III) Design: *Outer-Stage LDPC Code* (*Files are in prep.*) 
+### (III) Design: *Outer-Stage LDPC Code*   [\[S1--DESIGN-Outer LDPC Code Stage\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/00e9e753840d52aa048bad7ea66d35b805eb785d/%5BSIMULATION_FILES%5D%20Code%20Design/S1--DESIGN-Outer%20LDPC%20Code%20Stage)
+
+1. `\S1--DESIGN-Outer LDPC Code Stage\sub_code_Density_Evolution\main.m`  
+   * Given degree distributions, this file evaluates the asymptotic error performance at each iteration using modified density evolution (see Section IV.B of [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561)).
+
+2. `\S1--DESIGN-Outer LDPC Code Stage\LDPC_ensemble_optimization\main_LP.m`  
+   * Given initial degree distributions, this file maximizes the design rate by optimizing the variable-node side degree distributions.
+
+3. 
+	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_random_PCM.m`
+	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_encode_PCM.m`
+	*  This files are similar to `I.1` and `I.2:`
+		`I.1:` `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
+		`I.2:` `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m` 
