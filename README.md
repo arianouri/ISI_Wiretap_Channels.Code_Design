@@ -1,4 +1,5 @@
-# ISI_Wiretap_Channels.Code_Design
+# ISI_Wiretap_Channels.Code_Design &nbsp; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17267799.svg)](https://doi.org/10.5281/zenodo.17267799)
+
 
 ### Design and Analysis of a Concatenated Code for Intersymbol Interference Wiretap Channels
 
