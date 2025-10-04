@@ -1,0 +1,14 @@
+function [ineq, ineq_grad] = rate_inequality_constraint(lambda,f_exit,final_exit,p)
+D_v = length(lambda);
+n = length(p);
+ineq = zeros(D_v+2*n-1,1);    % number of inequality constraints are D_v+2n-1
+ineq_grad = zeros(D_v+2*n-1,D_v-1);
+% indices_l = 1./(1:D_v)';
+% indices_r = 1./(1:D_c)';
+ineq(1:D_v-1) = -lambda(2:end); % positivity of the degree distributions
+S = final_exit;
+ineq(D_v:D_v+n-1) = S - p + 10^-10;
+ineq(D_v+n:end) = -S + p/exp(2) + 10^-10;  % convexity constraint
+ineq_grad((1:D_v-1),:) = -eye(D_v-1);
+ineq_grad((D_v:D_v+n-1),:) = f_exit(:,2:end);
+ineq_grad((D_v+n:end),:) = -f_exit(:,2:end);
