@@ -1,4 +1,4 @@
-# ISI_Wiretap_Channels.Code_Design (IN PREPARATION)
+# ISI_Wiretap_Channels.Code_Design
 
 ### Design and Analysis of a Concatenated Code for Intersymbol Interference Wiretap Channels
 
@@ -10,15 +10,15 @@
 
 ### (I) Monte-Carlo: *Encoding/Decoding* [\[MC_Encoding_Decoding\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/main/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
 
-1. `main_step1_random_PCM.m`  
+1. `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
    * Given degree distributions, this file generates parity-check matrices (PCMs) for the outer LDPC code stage without girth-4.  
    * **Note:** Requires CVX and a licensed version of the MOSEK Optimization Tool (version 10).  
 
-2. `main_step2_uppertri_PCM.m`  
+1. `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`  
    * Given a PCM, this file produces the corresponding upper-triangular format suitable for reduced-complexity encoding of LDPC codes.  
    * **Reference:** Appendix A of *Modern Coding Theory* by Richardson and Urbanke.  
 
-3. `main_step3_MC_enc_dec.m`  
+1. `\MC_Encoding_Decoding\main_step3_MC_enc_dec.m`  
    * Performs a Monte-Carlo simulation of the encoder, the ISI wiretap channel, and the legitimate receiver’s message-passing decoder.  
 
 ---
@@ -55,4 +55,4 @@
 
 ---
 
-### Design: *Outer-Stage LDPC Code* (*Files are in prep.*) 
+### (III) Design: *Outer-Stage LDPC Code* (*Files are in prep.*) 
