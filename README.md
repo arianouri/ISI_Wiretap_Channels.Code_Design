@@ -67,5 +67,5 @@
 	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_random_PCM.m`
 	* `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_encode_PCM.m`
 	*  This files are similar to `I.1` and `I.2:`
-		`I.1:` `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
-		`I.2:` `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m` 
+		`I.1:` `\MC_Encoding_Decoding\main_step1_random_PCM.m`
+		`I.2:` `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`
