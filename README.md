@@ -8,7 +8,7 @@
 ---
 ## Simulation Files:
 
-### (I) Monte-Carlo: *Encoding/Decoding* [\[MC_Encoding_Decoding\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/main/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
+### (I) Monte-Carlo: *Encoding/Decoding* [\[MC_Encoding_Decoding\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/07b069e81737592c9c8d6db9d2c72e534c4d2600/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
 
 1. `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
    * Given degree distributions, this file generates parity-check matrices (PCMs) for the outer LDPC code stage without girth-4.  
@@ -23,7 +23,7 @@
 
 ---
 
-### (II) Design: *Inner-Stage Trellis Code*  [\[S0--DESIGN-Inner Trellis Code Stage\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/b20cbda79aa2a426671f5203387c611d9c9f0814/%5BSIMULATION_FILES%5D%20Code%20Design/S0--DESIGN-Inner%20Trellis%20Code%20Stage)
+### (II) Design: *Inner-Stage Trellis Code*  [\[S0--DESIGN-Inner Trellis Code Stage\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/07b069e81737592c9c8d6db9d2c72e534c4d2600/%5BSIMULATION_FILES%5D%20Code%20Design/S0--DESIGN-Inner%20Trellis%20Code%20Stage)
 
 > **Note:** You must have CVX installed along with a licensed version of the MOSEK Optimization Tool (version 10).
 
@@ -55,7 +55,7 @@
 
 ---
 
-### (III) Design: *Outer-Stage LDPC Code*   [\[S1--DESIGN-Outer LDPC Code Stage\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/00e9e753840d52aa048bad7ea66d35b805eb785d/%5BSIMULATION_FILES%5D%20Code%20Design/S1--DESIGN-Outer%20LDPC%20Code%20Stage)
+### (III) Design: *Outer-Stage LDPC Code*   [\[S1--DESIGN-Outer LDPC Code Stage\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/07b069e81737592c9c8d6db9d2c72e534c4d2600/%5BSIMULATION_FILES%5D%20Code%20Design/S1--DESIGN-Outer%20LDPC%20Code%20Stage)
 
 1. `\S1--DESIGN-Outer LDPC Code Stage\sub_code_Density_Evolution\main.m`  
    * Given degree distributions, this file evaluates the asymptotic error performance at each iteration using modified density evolution (see Section IV.B of [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561)).
