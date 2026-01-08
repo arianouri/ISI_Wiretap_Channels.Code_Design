@@ -29,7 +29,7 @@
 > **Note:** You must have CVX installed along with a licensed version of the MOSEK Optimization Tool (version 10).
 
 1. `\S0--DESIGN-Inner Trellis Code Stage\RULE_1_Expectation-Maximization\Main_Equi_no_MC_nth_45_30.m`  
-   * **Rule 1:** This file optimizes a finite-order Markov source at the input of the ISI-WTC, modeling the received signals from a phased array.  
+   * **Rule 1:** This file optimizes a finite-order Markov source at the input of the ISI wiretap channel, modeling the received signals from a phased array.  
    * **Check** the following in [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561):  
      * Appendix A  
      * Examples 1 and 2  
