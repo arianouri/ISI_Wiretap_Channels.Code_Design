@@ -12,7 +12,7 @@
 ### (I) Monte-Carlo: *Encoding/Decoding* [\[MC_Encoding_Decoding\]](https://github.com/arianouri/ISI_Wiretap_Channels.Code_Design/tree/07b069e81737592c9c8d6db9d2c72e534c4d2600/%5BSIMULATION_FILES%5D%20Code%20Design/MC_Encoding_Decoding)
 
 1. `\MC_Encoding_Decoding\main_step1_random_PCM.m`  
-   * Given degree distributions, this file generates parity-check matrices (PCMs) for the outer LDPC code stage without girth-4.  
+   * Given degree distributions, this file generates parity-check matrices (PCMs) for the outer LDPC code stage (without girth-4).  
    * **Note:** Requires CVX and a licensed version of the MOSEK Optimization Tool (version 10).  
 
 2. `\MC_Encoding_Decoding\main_step2_uppertri_PCM.m`  
@@ -29,7 +29,7 @@
 > **Note:** You must have CVX installed along with a licensed version of the MOSEK Optimization Tool (version 10).
 
 1. `\S0--DESIGN-Inner Trellis Code Stage\RULE_1_Expectation-Maximization\Main_Equi_no_MC_nth_45_30.m`  
-   * **Rule 1:** This file optimizes a finite-order Markov source at the input of the ISI wiretap channel, modeling the received signals from a phased array.  
+   * **Rule 1:** This file optimizes a finite-order Markov source at the input of the ISI wiretap channel.  
    * **Check** the following in [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561):  
      * Appendix A  
      * Examples 1 and 2  
@@ -62,7 +62,7 @@
    * Given degree distributions, this file evaluates the asymptotic error performance at each iteration using modified density evolution (see Section IV.B of [arXiv:2501.07561 [cs.IT]](https://arxiv.org/abs/2501.07561)).
 
 2. `\S1--DESIGN-Outer LDPC Code Stage\LDPC_ensemble_optimization\main_LP.m`  
-   * Given initial degree distributions, this file maximizes the design rate by optimizing the variable-node degree distributions.
+   * Given initial degree distributions, this file maximizes the design rate by optimizing the variable-node side degree distributions.
 
 3. Random Code Construction:  
    * `\S1--DESIGN-Outer LDPC Code Stage\random_code_construction\main_random_PCM.m`  
